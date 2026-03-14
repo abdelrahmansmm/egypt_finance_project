@@ -214,6 +214,9 @@ LIMIT 10;
 
 ---
 
+# Install dependencies
+pip install -r requirements.txt
+
 ## 👨‍💻 Author
 
 Built as a hands-on data engineering learning project covering the full modern data stack.
