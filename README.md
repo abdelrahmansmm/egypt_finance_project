@@ -126,8 +126,8 @@ egypt_finance_project/
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/egypt-finance-de.git
-cd egypt-finance-de
+git clone https://github.com/yourusername/egypt_finance_project.git
+cd egypt_finance_project
 ```
 
 **2. Create virtual environment:**
@@ -175,7 +175,6 @@ dbt test
 | Service | URL |
 |---|---|
 | Airflow UI | http://localhost:8080 |
-| Hadoop NameNode | http://localhost:9870 |
 | PostgreSQL | localhost:5432 |
 | MongoDB | localhost:27017 |
 
