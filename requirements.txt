@@ -1,0 +1,22 @@
+# Core Data Engineering
+apache-airflow==3.1.7
+dbt-postgres==1.10.0
+
+# Database Connectors
+psycopg2-binary==2.9.11
+pymongo==4.16.0
+
+# Data Processing
+pandas==3.0.1
+numpy==2.4.3
+
+# HTTP & Web
+requests==2.32.5
+beautifulsoup4==4.14.3
+lxml==6.0.2
+
+# Finance Data
+yfinance==1.2.0
+
+# Utilities
+python-dotenv==1.2.2
