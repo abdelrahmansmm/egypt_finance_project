@@ -1,4 +1,4 @@
-# 🇪🇬 Egypt Finance — End-to-End Data Engineering Project
+# Egypt Finance — End-to-End Data Engineering Project
 
 A production-grade data engineering pipeline that collects, stores, transforms, and orchestrates real Egyptian financial data using a modern open-source stack.
 
