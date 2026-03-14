@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: egypt_finance
+    schema: public
+    tables:
+      - name: egx_stocks
+        description: 'Raw EGX stock prices from yfinance'
+      - name: cbe_exchange_rates
+        description: 'Exchange rates from open.er-api.com'
+      - name: worldbank_indicators
+        description: 'World Bank macro indicators for Egypt'
+      - name: imf_data
+        description: 'IMF macroeconomic indicators for Egypt'

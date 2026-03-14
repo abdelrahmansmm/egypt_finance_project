@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: stg_egx_stocks
+    description: 'Cleaned and standardized EGX stock data'
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: ticker
+        tests:
+          - not_null
+      - name: trade_date
+        tests:
+          - not_null
+      - name: close_price
+        tests:
+          - not_null
+
+  - name: stg_cbe_rates
+    description: 'Cleaned exchange rates'
+    columns:
+      - name: currency_code
+        tests:
+          - not_null
+      - name: buy_rate_egp
+        tests:
+          - not_null
+      - name: rate_date
+        tests:
+          - not_null
+
+  - name: stg_worldbank
+    description: 'Cleaned World Bank indicators'
+    columns:
+      - name: indicator_code
+        tests:
+          - not_null
+      - name: year
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null
+
+  - name: stg_imf_data
+    description: 'Cleaned IMF indicators'
+    columns:
+      - name: indicator_name
+        tests:
+          - not_null
+      - name: year
+        tests:
+          - not_null
